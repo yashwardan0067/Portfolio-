@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yashvardhan — Web Designer · Logo Maker · Story Writer</title>
+  <meta name="description" content="Portfolio of Yashvardhan — web designer, logo creator, and story writer. Contact: ryashvardhan58@gmail.com" />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa6b2;--accent:#7c5cff;--glass:rgba(255,255,255,0.04);--ff-sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:var(--ff-sans);background:linear-gradient(180deg,#071028 0%,#081423 100%);color:#e6eef6;line-height:1.5;-webkit-font-smoothing:antialiased}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#34d399);display:flex;align-items:center;justify-content:center;font-weight:700}
+    .logo span{font-size:20px}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+    nav a:hover{color:#fff}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;padding:48px 0;align-items:center}
+    .hero-left h1{font-size:36px;margin:0}
+    .super{color:var(--accent);font-weight:600}
+    .hero-left p{color:var(--muted);margin:14px 0 18px}
+    .cta{display:flex;gap:12px}
+    .btn{background:var(--accent);border:none;padding:12px 18px;border-radius:10px;color:#071022;font-weight:700;cursor:pointer}
+    .btn.outline{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    .card{background:var(--card);padding:18px;border-radius:14px;box-shadow:0 6px 24px rgba(2,6,23,0.6)}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+    .service{padding:18px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent)}
+    .service h3{margin:0 0 8px}
+    .muted{color:var(--muted)}
+    .portfolio{margin-top:36px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .project{height:200px;border-radius:12px;overflow:hidden;position:relative;background-size:cover;background-position:center}
+    .project .meta{position:absolute;left:12px;bottom:12px;background:var(--glass);backdrop-filter:blur(6px);padding:8px;border-radius:8px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+    ul.skills{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+    ul.skills li{background:rgba(255,255,255,0.02);padding:8px;border-radius:8px;color:var(--muted)}
+    footer{margin-top:40px;padding:18px 0;border-top:1px solid rgba(255,255,255,0.03);color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+    @media (max-width:980px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.services{grid-template-columns:1fr}}
+    @media (max-width:600px){.grid{grid-template-columns:1fr}.split{grid-template-columns:1fr}}
+    .reveal{opacity:0;transform:translateY(8px);transition:all .7s cubic-bezier(.2,.9,.2,1)}
+    .reveal.visible{opacity:1;transform:none}
+    .socials a{margin-right:10px;color:var(--muted);text-decoration:none}
+    input,textarea{font-family:var(--ff-sans)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand"><div class="logo"><span>Y</span></div><div><div style="font-weight:700">Yashvardhan</div><div style="font-size:13px;color:var(--muted)">Web Designer · Logo Maker · Story Writer</div></div></div>
+      <nav><a href="#about">About</a><a href="#portfolio">Work</a><a href="#contact">Contact</a></nav>
+    </header>
+    <section class="hero">
+      <div class="hero-left">
+        <div class="card reveal" style="padding:24px"><div style="color:var(--muted);font-size:13px">Hi — I build memorable websites, bold logos, and stories that stick.</div><h1 style="margin-top:10px">I'm <span class="super">Yashvardhan</span>.</h1><p class="muted">I design clean, responsive websites, craft logos with personality, and write stories that connect. Based in India — available for freelance and collaborations.</p><div class="cta"><a class="btn" href="mailto:ryashvardhan58@gmail.com">Email Me</a><a class="btn outline" href="#portfolio">See Work</a></div><div style="margin-top:12px;font-size:13px;color:var(--muted)">Phone: <a href="tel:+919815352558" style="color:inherit;text-decoration:none">+91 98153 52558</a></div></div>
+      </div>
+      <aside>
+        <div class="card reveal" style="padding:18px"><h3 style="margin:0 0 8px">Quick Facts</h3><div class="muted" style="font-size:13px">Services</div><ul style="padding-left:16px"><li>Web Design</li><li>Logo & Brand Identity</li><li>Story & Copywriting</li></ul><div style="margin-top:12px"><div class="muted" style="font-size:13px">Find me</div><div class="socials" style="margin-top:8px"><a href="https://instagram.com/official_yashu335" target="_blank">@official_yashu335</a><a href="https://instagram.com/Yashu_rajput335" target="_blank">@Yashu_rajput335</a></div><div style="margin-top:12px;font-size:13px;color:var(--muted)">Email: <a href="mailto:ryashvardhan58@gmail.com">ryashvardhan58@gmail.com</a></div></div></div>
+      </aside>
+    </section>
+    <section id="services" class="services"><div class="service card reveal"><h3>Web Design</h3><div class="muted">Responsive sites, landing pages, and UI design.</div></div><div class="service card reveal"><h3>Logo & Brand</h3><div class="muted">Logo systems, color palettes, and brand marks.</div></div><div class="service card reveal"><h3>Story Writing</h3><div class="muted">Product copy, short stories, and content.</div></div></section>
+    <section id="portfolio" class="portfolio"><h2>Selected Work</h2><p class="muted">Hand-picked projects.</p><div class="grid" style="margin-top:12px"><a class="project card reveal" href="#" style="background-image:url('https://images.unsplash.com/photo-1526378723701-1fd8c2d3f6a6?auto=format&fit=crop&w=800&q=60')"><div class="meta"><strong>Startup Landing</strong><div class="muted">Web design</div></div></a><a class="project card reveal" href="#" style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=60')"><div class="meta"><strong>Minimal Logo Set</strong><div class="muted">Branding</div></div></a><a class="project card reveal" href="#" style="background-image:url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=60')"><div class="meta"><strong>Story Series</strong><div class="muted">Narrative</div></div></a></div></section>
+    <section id="about" class="split"><div class="card reveal"><h3>About Me</h3><p class="muted">I’m a web designer, logo maker, and storyteller who focuses on clear visuals and human-first copy.</p></div><div class="card reveal"><h3>Skills & Tools</h3><ul class="skills"><li>HTML & CSS</li><li>Responsive Design</li><li>Figma</li><li>Illustrator</li><li>Photoshop</li><li>Storytelling</li></ul></div></section>
+    <section id="contact" style="margin-top:28px" class="card reveal"><h3>Contact</h3><p class="muted">Reach out for projects.</p><p><strong>Email</strong>: <a href="mailto:ryashvardhan58@gmail.com">ryashvardhan58@gmail.com</a></p><p><strong>Phone</strong>: <a href="tel:+919815352558">+91 98153 52558</a></p><p><strong>Instagram</strong>: <a href="https://instagram.com/official_yashu335" target="_blank">@official_yashu335</a>, <a href="https://instagram.com/Yashu_rajput335" target="_blank">@Yashu_rajput335</a></p></section>
+    
+    <!-- Feedback Section -->
+    <section id="feedback" style="margin-top:28px" class="card reveal">
+      <h3>Feedback</h3>
+      <p class="muted">I’d love to hear your thoughts or suggestions.</p>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <label for="email">Your Email</label><br>
+        <input type="email" id="email" name="email" required
+               style="width:100%;padding:10px;margin:8px 0;border-radius:8px;border:none;">
+        
+        <label for="message">Your Feedback</label><br>
+        <textarea id="message" name="message" rows="4" required
+                  style="width:100%;padding:10px;margin:8px 0;border-radius:8px;border:none;"></textarea>
+        
+        <button type="submit" class="btn">Send Feedback</button>
+      </form>
+    </section>
+
+    <footer><div>© <strong>Yashvardhan</strong></div><div style="font-size:13px">Made with care</div></footer>
+  </div>
+  <script>
+    const revealEls=document.querySelectorAll('.reveal');
+    const obs=new IntersectionObserver(entries=>{
+      entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})
+    },{threshold:0.15});
+    revealEls.forEach(el=>obs.observe(el));
+  </script>
+</body>
+</html>
